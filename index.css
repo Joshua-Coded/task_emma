@@ -19,13 +19,28 @@ header {
 /* styling our navigation section */
 
 header .meader {
-    max-width: 1240px;
+    /* max-width: 1240px; */
     height: 100%;
     padding: 0 1rem;
     margin: auto;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+}
+
+span {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+span h1 {
+    margin: 10px;
+    padding: 10px;
 }
 
 .nav-menu {
@@ -80,6 +95,26 @@ section {
     letter-spacing: 2;
 }
 
+.try_free {
+    background-color: blue;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+
+.try_free h2 {
+     margin: auto;
+}
+
+.try_free  span {
+    background-color: white;
+    border-radius: 35%;
+    /* padding: 7px; */
+    height: 5px;
+    color: #0D0D2B;
+}
 
 footer {
     background-color: #0D0D2B;
